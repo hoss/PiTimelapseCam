@@ -4,13 +4,13 @@ PiTimelapseCam is a bare bones app that turns you Raspberry Pi into a timelapse 
 
 ## Installation
 
-* copy timelapsecam directory to home dir of Pi user
-* chmod +x ~/timelapsecam/camera.sh
+* copy PiTimelapseCam directory to home dir of Pi user
+* chmod +x ~/PiTimelapseCam/camera.sh
 
 ## Test
 
 ```bash
-sh ~/timelapsecam/camera.sh
+sh ~/PiTimelapseCam/camera.sh
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ Modify ~/timelapsecam/camera.sh to change image size, orientation, quality, etc.
 
 ```bash
 crontab -e
-* * * * * /home/pi/timelapsecam/camera.sh 2>&1
+* * * * * /home/pi/PiTimelapseCam/camera.sh 2>&1
 ```
 
 ## Resources
